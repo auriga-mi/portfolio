@@ -103,7 +103,7 @@ export default defineComponent({
       switch(paragraph) {
         case "ISTQB":
           this.modalTitle = "Testeur Certifié ISTQB";
-          this.modalContent = "Je suis testeur logiciel depuis 9 ans, durant ces années j'ai mis à profit ces compétences dans le domaine du test manuel :<br>- Vérification de critères d'acceptation<br>- Conception de cas de tests avec leurs jeux de données associés<br>- Mise en place d'un outil de gestion des exigences et du patrimoine de tests<br>- Définition et documentation des procédures de test de l'entreprise<br>- Développement de mon sens critique et de mon intuition";
+          this.modalContent = "Je suis testeur logiciel depuis 9 ans, durant ces années j'ai mis à profit ces compétences dans le domaine du test manuel :<br>- Vérification de critères d'acceptation<br>- Conception de cas de tests avec leurs jeux de données associés<br>- Mise en place d'un outil de gestion des exigences et du patrimoine de tests<br>- Définition et documentation des procédures de test de l'entreprise<br>- Développement de mon sens critique et de mon intuition<br>- Formation et coordination des testeurs au sein de l'entreprise";
           break;
         case "Postman":
           this.modalTitle = "Postman";
