@@ -24,7 +24,7 @@
         </n-image-group>
       </n-tab-pane>
       <n-tab-pane name="homeassistant" tab="Home Assistant">
-        Installation, configuration et administration d'un serveur Home Assistant<br>
+        Installation, configuration et administration d'un serveur <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a> sur un hyperviseur <a href="https://www.proxmox.com/" target="_blank">ProxMox</a><br>
         Gestion d'un réseau domotique pour le chauffage, les lumières, suivi de consommation et autres appareils.<br><br>
         <n-image-group>
             <n-image
@@ -66,4 +66,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
+a {
+  color: #18a058;
+  text-decoration: none;
+}
 </style>
