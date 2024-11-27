@@ -9,10 +9,17 @@
             <n-image
               height="200"
               src="/imgs/portfolio.png"
+              style="margin-right: 10px;"
+            />
+            <n-image
+              height="200"
+              src="/imgs/webdriverio.gif"
+              style="margin-right: 10px;"
             />
             <n-image
               height="200"
               src="/imgs/spec-report.png"
+              style="margin-right: 10px;"
             />
         </n-image-group>
       </n-tab-pane>
@@ -23,10 +30,12 @@
             <n-image
               height="200"
               src="/imgs/home-assistant1.png"
+              style="margin-right: 10px;"
             />
             <n-image
               height="200"
               src="/imgs/home-assistant2.png"
+              style="margin-right: 10px;"
             />
         </n-image-group>
       </n-tab-pane>
