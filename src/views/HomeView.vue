@@ -27,9 +27,7 @@
             status="success"
             :percentage="percentage"
           />
-          <a href="https://www.linkedin.com/in/arnaud-pissot-a7512710b/" target="_blank" style="margin-left: -220px; position:relative; top:-14px;">
-            <img src="@/assets/arnaud.jpg" alt="Arnaud Pissot's photo" width="200" height="200" class="rounded">
-          </a>
+          <img src="@/assets/arnaud.jpg" alt="Arnaud Pissot's photo" width="200" height="200" class="rounded" style="margin-left: -220px; position:relative; top:-14px;">
           <Transition name="fade" mode="out-in">
             <h2 v-if="showName" id="nameTest" style="margin-left: 20px;">Arnaud Pissot - QC Tester</h2>
             <h2 v-else style="opacity:0;">-</h2>
