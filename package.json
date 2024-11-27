@@ -1,0 +1,35 @@
+{
+  "name": "auriga.network",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@wdio/allure-reporter": "^9.2.14",
+    "@wdio/cli": "^9.4.0",
+    "@wdio/junit-reporter": "^9.2.14",
+    "@wdio/local-runner": "^9.4.0",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/spec-reporter": "^9.2.14",
+    "@wdio/testrail-reporter": "^0.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "naive-ui": "^2.40.1",
+    "vfonts": "^0.0.3",
+    "vite": "^5.3.1",
+    "wdio-wait-for": "^3.0.11"
+  }
+}
