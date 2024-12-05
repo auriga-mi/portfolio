@@ -41,7 +41,7 @@
       </n-tab-pane>
       <n-tab-pane name="logo" tab="Mon logo">
         Graphiste de formation, j'ai des appétences en UI/UX et en création graphique.<br>
-        Mon style graphique se s'inspîre généralement de la géométrie et de l'espace vers des designs épurés, c'est pourquoi mon logo se base sur la <a href="https://fr.wikipedia.org/wiki/Cocher_(constellation)" target="_blank">constellation du Cocher</a>.<br><br>
+        Mon style graphique s'inspîre généralement de la géométrie et de l'espace vers des designs épurés, c'est pourquoi mon logo se base sur la <a href="https://fr.wikipedia.org/wiki/Cocher_(constellation)" target="_blank">constellation du Cocher</a>.<br><br>
         <n-image
           height="200"
           style="background-color: #cccccc; padding: 20px;"
